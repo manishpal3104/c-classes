@@ -24,6 +24,7 @@ int main() {
 	s2.getData(1003, "Ankit Kumar Singh");
 	s3.getData(1004, "Satish Kumar Pal");
 	s4.getData(1005, "Aman Kumar");
+	s5.getData(1006, "Nacho Monreal");
 	cout << "Student Details :\n";
 	s1.putData();
 	s2.putData();
