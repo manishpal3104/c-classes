@@ -19,13 +19,16 @@ class student {
 };
 
 int main() {
-	student s1, s2;
+	student s1, s2, s3, s4;
 	s1.getData(1002, "Manish Kumar Pal");
 	s2.getData(1003, "Ankit Kumar Singh");
 	s3.getData(1004, "Satish Kumar Pal");
+	s4.getData(1005, "Aman Kumar");
 	cout << "Student Details :\n";
 	s1.putData();
 	s2.putData();
+	s3.putData();
+	s4.putData();
 	system("pause");
 	return 0;
 }
