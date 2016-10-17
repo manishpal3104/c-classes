@@ -20,7 +20,7 @@ void Two(int &x)
 }
 void One()
 {
-	int y = 1;
+	int y = 100;
 	Two(y);
 	cout << y << endl;
 }
